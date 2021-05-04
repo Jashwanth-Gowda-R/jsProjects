@@ -28,31 +28,24 @@ class Forecast{
 }
 
 
-
+// this is using function method
 // const key ='XGuMzIOxGf28Da2Ce4tLwlUi5yWr7Dsm';
 
 // // get weather information
 // const getWeather = async (id) => {
-
 //     const base = 'http://dataservice.accuweather.com/currentconditions/v1/';
 //     const query = `${id}?apikey=${key}`;
-  
 //     const response = await fetch(base + query);
 //     const data = await response.json();
-  
-//     return data[0];
-  
+//     return data[0];  
 //   };
   
 //   // get city information
 // const getCity = async (city) => {
-
 //     const base = 'http://dataservice.accuweather.com/locations/v1/cities/search';
 //     const query = `?apikey=${key}&q=${city}`;
-
 //     const response = await fetch(base + query);
 //     const data = await response.json();
-
 //     return data[0];
 
 // };
