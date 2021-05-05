@@ -17,7 +17,7 @@ dropdowns.forEach(dropdown => {
   instance.init();
 });
 
-// create tooltip
+// create tabs
 const tabs = new Tabs(document.querySelector('.tabs'));
 tabs.init();
 
