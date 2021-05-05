@@ -1,1 +1,1 @@
-# These are few modern javascript project you can take these projects a base and build new and bigger projects
+# These are few modern javascript project you can take these projects as base and build new and bigger projects
