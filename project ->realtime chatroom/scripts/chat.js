@@ -11,7 +11,7 @@ class Chatroom{
         this.unsub;
     }
     async addChat(message){
-        // format a data object
+        // format a data object for nosql db
         const now= new Date();
         const chat={
             message,
@@ -50,22 +50,3 @@ class Chatroom{
     }
      
 }
-
-// const chat=new Chatroom('gaming','shani');
-// // // console.log(chat);
-// // chat.addChat('hello guys').then(()=>{
-// //     console.log('added to db');
-// // }).catch(err=>console.log(err));
-
-// chat.getChats(data=>{
-//     console.log(data);
-// })
-
-// setTimeout(()=>{
-//     chat.updateRoom('general');
-//     chat.updateName('msd');
-//     chat.getChats(data=>{
-//         console.log(data);
-//     });
-//     chat.addChat('bye bro')
-// },3000);
